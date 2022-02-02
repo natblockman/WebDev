@@ -1,0 +1,12 @@
+.parent {
+  font-size: 32px;
+  font-family: "Comforter", cursive;
+  background-color: rgb(0, 255, 115);
+  text-align: center;
+}
+.child {
+  font-size: 10em;
+  text-align: right;
+  background-image: url(https://www.teahub.io/photos/full/208-2081221_full-hd-colorful-background..jpg);
+  background-position: left;
+}

@@ -1,0 +1,15 @@
+.box1 {
+  background-color: red;
+}
+
+div {
+  background-color: green !important;
+}
+
+#box-1 {
+  background-color: yellow;
+}
+
+* {
+  background-color: aqua;
+}

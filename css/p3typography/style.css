@@ -1,0 +1,9 @@
+div {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  color: green;
+  text-decoration: underline;
+  text-align: center;
+}
