@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ลงทะเบียน</title>
+    <style>
+        form{
+            border: 2px solid blue;
+        }
+        input{
+            border: 2px solid gold;
+        }
+    </style>
+</head>
+<body>
+    <h1 >ลงทะเบียน</h1>
+    <form >
+        <div>
+            <label for="firstname">ชื่อจริง</label>
+            <input type="text" name="fname" placeholder="ป้อนชื่อของคุณ" required>
+        </div>
+        <div>
+            <label for="lastname">นามสกุล</label>
+            <input type="text" name="lname" placeholder="ป้อนนามสกุลของคุณ" required>
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password" required>
+        </div>
+        <div>
+            <laber for="">ที่อยู่</laber>
+            <textarea name="ที่อยู่" cols="20" rows="10" required>ที่อยู่</textarea>
+        </div>
+        <div>
+            <label for="age">อายุ</label>
+            <input type="number" name="age" min="0" max="100" value="1" required>
+        </div>
+        <div>
+            <label for="num">เลข</label>
+            <input type="number" name="num" min="0" max="100" value="1" readonly>
+        </div>
+        <div>
+            <label for="birth">วันเกิด</label>
+            <input type="date" name="birthdate" required>
+        </div>
+        <div>
+            <label for="tel">เบอร์โทร</label>
+            <input type="tel" name="tel" required>
+        </div>
+        <div>
+            <label for="color">สีที่ชอบ</label>
+            <input type="color" name="color">
+        </div>
+        <div>
+            <label for="range">ช่วงตัวเลข</label>
+            <input type="range" name="rangenumber" value="5">
+        </div>
+        <div>
+            <label for="edu">ระดับการศึกษา</label>
+            <select name="education" id="">
+                <option>ปริญญาตรี</option>
+                <option>ปริญญาโท</option>
+                <option>ปริญญาเอก</option>
+                <option>มัธยมศึกษาตอนปลาย</option>
+                <option>มัธยมศึกษาตอนต้น</option>
+                <option>ประถมศึกษา</option>
+            </select>
+        </div>
+        <div>
+            <label for="gender">เพศ</label>
+             <input type="radio" name="gender">เพศชาย <!--จัดให้อยู่กลุ่มเดียวกันโดยใช้nameชื่อเดียวกันเพื่อเลือกได้เพียง1ตัวเลือก -->
+            <input type="radio" name="gender">เพศหญิง
+            <input type="radio" name="gender">กำหนดเอง
+        </div>
+        <div>
+            <label for="fav">ความชื่นชอบ</label>
+             <input type="checkbox" name="fav">เขียนเว็บ<!--จัดให้อยู่กลุ่มเดียวกันโดยใช้nameชื่อเดียวกันเพื่อเลือกได้เพียง1ตัวเลือก -->
+            <input type="checkbox" name="fav">สร้างเกม
+            <input type="checkbox" name="fav">ซ่อมคอม
+            <input type="checkbox" name="fav">เล่นเกม
+            <input type="checkbox" name="fav">อื่นๆ
+        </div>
+        <div>
+            <label for="file">เลือกไฟล์</label>
+             <input type="file">
+        </div>
+        <div>
+            <label for="web">websiteของคุณ</label>
+             <input type="url">
+        </div>
+        <div>
+            <!-- <input type="submit" value="บันทึกข้อมูล"> -->
+            <button type="submit">บันทึกข้อมูล</button>
+            <button type="reset" name="reset" id="reset" >ล้างข้อมูล</button>
+        </div>
+    </form>
+    <span style="border: 1px solid red;">555555555</span>
+</body>
+</html>
