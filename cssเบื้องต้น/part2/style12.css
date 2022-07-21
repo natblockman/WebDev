@@ -1,0 +1,25 @@
+:root{
+    --box:var(--spacing) solid red;
+    --theme-color:pink;
+    --shadow:5px 5px var(--theme-color);
+    --spacing:20px;
+    --font:40px
+}
+
+ .box-1{
+    border: var(--box);
+    background-color: var(--theme-color);
+    box-shadow: var(--shadow);
+    margin: var(--spacing);
+    font-size: var(--font);
+}
+.box-2{
+    border: var(--box);
+}
+.box-3{
+    border: var(--box);
+    background-color: var(--theme-color);
+    box-shadow: var(--shadow);
+    margin: var(--spacing);
+    font-size: var(--spacing);
+} 
