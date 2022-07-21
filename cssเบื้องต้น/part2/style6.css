@@ -1,0 +1,11 @@
+/* descendent selector */
+p{
+    background-color: orange;
+}
+div p{
+    background-color: greenyellow;
+}
+/* child selector */
+div>p{
+    background-color: yellow;
+}

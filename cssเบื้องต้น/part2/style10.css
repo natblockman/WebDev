@@ -1,0 +1,33 @@
+.is-required:before{
+    content: "*";
+    color: red;
+    padding-left: 2px;
+}
+body{
+    background-color: rgb(86, 84, 84);
+    color: #FFF;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+header>h1{
+    font-size: 4rem;
+    margin: 1rem;
+}
+header::after{
+    content: "";
+    background: url('https://cdn.pixabay.com/photo/2019/11/08/18/26/maple-4612031_1280.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* layer */
+    z-index: -1;
+    opacity: 0.4;
+}
