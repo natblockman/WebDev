@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- <body onload="welcome()"> -->
+    <body>
+    <div id="box" class="darkMode">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ea saepe atque dicta ab. Tempora?</p>
+    </div>
+    <label for="">ชื่อ</label>
+    <input type="text" placeholder="ป้อนชื่อของคุณ" onfocus="hightlight(this)" onblur="unhightlight(this)"><br>
+    <textarea name="" id="" cols="30" rows="10" onfocus="hightlight(this)" onblur="unhightlight(this)"></textarea><br>
+    <label for="">เลือกเครื่องมือของคุณ</label>
+    <select name="" id="menu" onchange="getMenu()">
+        <option value="Javascript">Javascript</option>
+        <option value="Python">Python</option>
+        <option value="Bootstrap">Bootstrap</option>
+    </select><br>
+    <p id="display"></p>
+    <a href="" onmouseover="hightlight(this)" onmouseout="unhightlight(this)">Menu 1</a>
+    <a href="" onmouseover="hightlight(this)" onmouseout="unhightlight(this)">Menu 2</a>
+    <button id="btn" >แจ้งเตือน</button>
+    <script src="app28domevent.js"></script>
+</body>
+</html>
