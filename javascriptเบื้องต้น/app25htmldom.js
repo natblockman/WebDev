@@ -3,6 +3,7 @@
 const titleEL=document.getElementById('title')
 // console.log(a);
 
+
 // let b=document.getElementById('demo')
 // อ้างอิงผ่าน id
 // const b=document.querySelector('#demo');
