@@ -1,0 +1,11 @@
+/* .item{
+    color:blue;
+    text-align:center;
+    list-style-type: disc;
+} */
+.expense{
+    border-right: 5px solid red;
+}
+.income{
+    border-right: 5px solid green;
+}

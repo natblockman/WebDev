@@ -27,5 +27,5 @@ const cart=[
     {name:"หนังสือ",price:900},
     {name:"กล้องถ่ายรูป",price:50000}
 ]
-const sum=cart.reduce((value,e)=>e.price+value,0)
+const sum=cart.reduce((value,e)=>e.price+value,0)//e.priceคือobject 0คือค่าเริ่มต้น
 console.log(`ลูกค้าต้องชำระเงิน = ${sum} บาท`)
