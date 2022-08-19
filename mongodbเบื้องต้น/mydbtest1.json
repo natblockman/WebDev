@@ -1,0 +1,88 @@
+[{
+  "_id": {
+    "$oid": "62fb63cba956a04d0efdf056"
+  },
+  "name": "นัด",
+  "age": 26,
+  "email": "natblockman@gmail.com"
+},{
+  "_id": {
+    "$oid": "62fb643ba956a04d0efdf057"
+  },
+  "name": "โจโจ้",
+  "age": 20,
+  "email": "่jojo@gmail.com",
+  "department": "ฝ่ายการตลาด"
+},{
+  "_id": {
+    "$oid": "62fb64a29fad66c15c929c56"
+  },
+  "name": "สมชาย",
+  "age": 32,
+  "email": "sonchai@gmail.com",
+  "department": "ฝ่ายโฆษณา"
+},{
+  "_id": {
+    "$oid": "62fb6e5fa956a04d0efdf058"
+  },
+  "name": "ก้อง",
+  "age": 30
+},{
+  "_id": {
+    "$oid": "62fb6e5fa956a04d0efdf059"
+  },
+  "name": "โจ",
+  "age": 25
+},{
+  "_id": {
+    "$oid": "62fb6e5fa956a04d0efdf05a"
+  },
+  "name": "ตั๊ก",
+  "age": 41
+},{
+  "_id": {
+    "$oid": "62fb7b6da956a04d0efdf05b"
+  },
+  "name": "โก้",
+  "age": 43,
+  "email": "koko@gmail.com",
+  "social": [
+    "facebook",
+    "line"
+  ]
+},{
+  "_id": {
+    "$oid": "62fb7bae9fad66c15c929c57"
+  },
+  "name": "ออม",
+  "age": 25,
+  "social": [
+    "facebook",
+    "line",
+    "instagram"
+  ]
+},{
+  "_id": {
+    "$oid": "62fb7e23a956a04d0efdf05c"
+  },
+  "name": "น้ำ",
+  "age": 19,
+  "email": "water@gmail.com",
+  "general": {
+    "weight": 52,
+    "height": 171,
+    "gender": "female"
+  }
+},{
+  "_id": {
+    "$oid": "62fb7e569fad66c15c929c58"
+  },
+  "name": "เจม",
+  "age": 22,
+  "email": "jame@gmail.com",
+  "general": {
+    "weight": 60.7,
+    "height": 171.5,
+    "gender": "male"
+  }
+}]
